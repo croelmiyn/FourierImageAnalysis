@@ -1,6 +1,6 @@
 # FourierAnalysis
 
-ImageJ Plugins for extracting dynamics from movies
+ImageJ Plugins for extracting dynamics from movies. Compatible with ImageJ 1.49 and java 1.8.0
 
 DDM is composed of:
 
