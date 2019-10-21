@@ -5,9 +5,7 @@ ImageJ Plugins for extracting dynamics from movies
 DDM is composed of:
 
 DICF calculation: DDM_Classical_5.java
-
 DICF Fit: CorrFctFit_PartSwimmerFit_SecDiffLM.java
-
 Fit utility: SecantDiffLevenbergMarquartFitter.java
 
 PhiDM is implemented by: 
@@ -17,7 +15,6 @@ PhiDM_Version4_1.java
 Local PhiDM (PIV method) is:
 
 PhiDM_LocalVersion_Filter_MultiCore.java
-
 with the utility: VelocityDisplayRoi2.java
 
 Installation:
