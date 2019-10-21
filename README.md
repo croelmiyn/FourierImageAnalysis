@@ -21,15 +21,11 @@ Installation:
 
 1. utilities
 
-a. create a /packages/ folder at the root of ImageJ (.../ImageJ/)
+a. copy the packages/ folder at the root of ImageJ (.../ImageJ/)
 
-b. copy the mpi/... folder in packages/ 
+b. open ImageJ.cfg file at the root with a text editor
 
-c. copy the jtransforms-2.4.jar in packages/
-
-d. open ImageJ.cfg file at the root with text editor
-
-e. modify '-cp ij.jar ij.ImageJ' into '-cp ij.jar;packages ij.ImageJ' and save
+c. modify '-cp ij.jar ij.ImageJ' into '-cp ij.jar;packages ij.ImageJ' and save
 
 2. Main plugin
 
