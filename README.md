@@ -1,4 +1,4 @@
-# FourierAnalysis
+# Fourier Image Analysis
 
 ImageJ Plugins for extracting dynamics from movies. Compatible with ImageJ 1.49 and java 1.8.0
 
