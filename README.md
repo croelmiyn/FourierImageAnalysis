@@ -110,3 +110,24 @@ contact us if you need help to do this.
 
 
 II.2. PhiDM 
+
+Refer to Colin et al. J. Royal Soc. Interface 9 0486 (2014) for theoretical background.
+
+Open the movie in ImageJ. Launch PhiDM_Version4_1. Parameters are: 
+
+Min width of the q-plane fit: smallest max wave number for which the phase of I(q,t)I*(q,t+tau) is fitted (qMin) 
+
+Max width of the q-plane fit: largest max wave number for which the phase of I(q,t)I*(q,t+tau) is fitted  (qMax)
+
+Increment in width of the q-plane fit: Increment of q
+
+Output of the phase as a 32-bit film ? Check if you want to visualise the phase in the wave number plane (! requires lots of memory)
+
+Background substraction (temporal avg) ? Check if you want to subtract the steady background (recommanded)
+
+Select the name of the output file and let the analysis run.
+
+The output file contains the cummulated displacement in x and y fitted for q=qMin - qMax, and then the average and standard 
+deviation, as a function of time
+
+
