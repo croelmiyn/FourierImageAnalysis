@@ -5,14 +5,16 @@ Copyright (c) 2019 Remy Colin
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
+to use, copy, modify, merge, publish, distribute, sublicense 
+the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
 Please cite the following if you use these codes:
 DDM         Wilson et al., Phys. Rev. Lett. 106, 018101 (2011)
 PhiDM       Colin et al., J. Royal Soc. Interface 11, 0486 (2014)
 Local PhiDM Colin et al., Nat. Commun. (2019)
+
+Please contact remy.colin@synmikro.mpi-marburg.mpg.de for commercial use
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
