@@ -115,15 +115,15 @@ Refer to Colin et al. J. Royal Soc. Interface 11 0486 (2014) for theoretical bac
 
 Open the movie in ImageJ. Launch PhiDM_Version4_1. Parameters are: 
 
-Min width of the q-plane fit: smallest max wave number for which the phase of I(q,t)I*(q,t+tau) is fitted (qMin) 
+- Min width of the q-plane fit: smallest max wave number for which the phase of I(q,t)I*(q,t+tau) is fitted (qMin) 
 
-Max width of the q-plane fit: largest max wave number for which the phase of I(q,t)I*(q,t+tau) is fitted  (qMax)
+- Max width of the q-plane fit: largest max wave number for which the phase of I(q,t)I*(q,t+tau) is fitted  (qMax)
 
-Increment in width of the q-plane fit: Increment of q
+- Increment in width of the q-plane fit: Increment of q
 
-Output of the phase as a 32-bit film ? Check if you want to visualise the phase in the wave number plane (! requires lots of memory)
+- Output of the phase as a 32-bit film ? Check if you want to visualise the phase in the wave number plane (! requires lots of memory)
 
-Background substraction (temporal avg) ? Check if you want to subtract the steady background (recommanded)
+- Background substraction (temporal avg) ? Check if you want to subtract the steady background (recommanded)
 
 Select the name of the output file and let the analysis run.
 
@@ -137,33 +137,33 @@ Refer to Colin et al. Nat. Commun. (2019) for theoretical background.
 
 Open the movie in ImageJ. Launch PhiDM_LocalVersion_Filter_MultiCore. Parameters are
 
-Size_of_the_sub-regions: size of the sub movie on which the local displacement is set 
+- Size_of_the_sub-regions: size of the sub movie on which the local displacement is set 
 
-Size_of_the_Filter: size in px of the Gaussian filter to limit the region
+- Size_of_the_Filter: size in px of the Gaussian filter to limit the region
 
-Spacement of_the_sub-regions: Spacement of the points at which the local velocity is computed.
+- Spacement of_the_sub-regions: Spacement of the points at which the local velocity is computed.
 
-Background_substraction_(temporal_avg)?: See PhiDM
+- Background_substraction_(temporal_avg)?: See PhiDM
 
-Standart_displacement_calculation?: If checked standard parameters for displacement calculation are used 
+- Standart_displacement_calculation?: If checked standard parameters for displacement calculation are used 
 
-If_not_specify_qmax: Same as qMax of PhiDM
+- If_not_specify_qmax: Same as qMax of PhiDM
 
-Print_trajectories?: Make a 32-bit Stack containing the map of the cummulative displacement as a function of time 
+- Print_trajectories?: Make a 32-bit Stack containing the map of the cummulative displacement as a function of time 
 
-Compute Correlators?: Check if you want some correlations be calculated
+- Compute Correlators?: Check if you want some correlations be calculated
 
-Number_of_lag_time_per_decade in output file: Related to above
+- Number_of_lag_time_per_decade in output file: Related to above
 
-Output of the velocity?: Check if you want a 32-bit Stack containing the map of instantaneous velocity as a function of time 
+- Output of the velocity?: Check if you want a 32-bit Stack containing the map of instantaneous velocity as a function of time 
 
-Interval duration for velocity Computations: Number of frames used to compute the velocity out of the cummulative displacement
+- Interval duration for velocity Computations: Number of frames used to compute the velocity out of the cummulative displacement
 
-Magnification_factor_for_arrows: For display of the velocities as an arrow fied 
+- Magnification_factor_for_arrows: For display of the velocities as an arrow fied 
 
-Save Velocities?: Check if you want the velocities saved in a text file
+- Save Velocities?: Check if you want the velocities saved in a text file
 
-number_free_threads: Number of virtual cores which will be keep free during the computation.
+- number_free_threads: Number of virtual cores which will be keep free during the computation.
 
 Assign file names if relevant and let run.
 
